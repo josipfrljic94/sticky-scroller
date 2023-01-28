@@ -1,0 +1,61 @@
+h1,
+p {
+  font-family: Lato;
+}
+
+html,
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+
+.container {
+  /* height: 100%; */
+  padding-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  align-items: stretch;
+  min-height: 100%;
+}
+.column {
+  height: inherit;
+  background-color: black;
+}
+/* .column */
+.row > div {
+  flex: 1;
+  border: 1px solid #ddd;
+  margin: 0 10px;
+  background-color: black;
+  padding: 10px 0;
+}
+.wrap {
+  height: 100%;
+}
+.left {
+  position: sticky;
+  height: 300vh;
+  border-bottom: 20px solid black;
+  /* height: 100%; */
+  /* background-color: blue; */
+  /* width: 33%; */
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+.center {
+  position: sticky;
+  height: 540vh;
+  background-color: aqua;
+  /* width: 33%; */
+}
+
+.right {
+  position: sticky;
+  height: 2540vh;
+  background-color: azure;
+  /* width: 33%; */
+}
