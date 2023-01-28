@@ -1,3 +1,3 @@
 # sticky-scroller
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-m2ufcv)
+Package which is inspired from facebook sticky scroller.  
