@@ -1,8 +1,8 @@
-# sticky-scroller
+
+# Smart Sticky Component
 
 Package which is inspired from facebook sticky scroller.  
 
-# Smart Sticky Component
 
 A **Smart Sticky** component built with React and TypeScript, designed to create a "sticky" effect on elements as you scroll, similar to the one used on Facebook's interface. The sticky component intelligently sticks within a designated container and respects the boundaries of other elements, providing a smooth and unobtrusive user experience.
 
